@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;400;800&family=Oleo+Script:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background: rgb(28, 150, 231);
+    overflow-x: hidden;
+    font-family: 'Lexend Deca', sans-serif;
+}
+header{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+header img{
+    
+    height: 50px;
+}
+header ul{
+    
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header ul li{
+    padding: 15px 20px;
+    color: azure;
+    cursor: pointer;
+}
+header ul .hubungi{
+   
+    border-radius: 30px;
+    background-color: rgb(255, 173, 20);
+    box-shadow: 0px 0px 20px lightslategray;
+}
+header ul li a{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.pembuka{
+    padding: 100px 0;
+    width: 100%;
+    display: flex;
+    gap: 150px;
+}
+.pembuka .text{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    width: 50%;  
+    color: azure;
+}
+.pembuka .text h1{
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+.pembuka .bg-img{
+    width: 250px;
+    background-color: rgb(250, 232, 71);
+    border-radius: 100% 0% 100% 0% / 100% 100% 0% 0%;
+    padding: 5px 30px;
+}
+.pembuka img{
+    width: 230px;
+    border-radius: 2px;
+}
+.pembuka a{
+    
+    padding: 15px 0;
+    border-radius: 30px;
+    background-color: rgb(252, 122, 0);
+    text-align: center;
+    width: 250px;
+    margin-top: 50px;
+    box-shadow: 0 0 30px lightslategray;
+}
+
+.bagian1{
+    width: 100%;
+    background-color: rgb(233, 247, 255);
+    padding: 100px 0;
+}
+.bagian1 h2{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 79, 250);
+}
+.bagian1 .iner{
+    display: flex;    
+    justify-content: center;
+}
+.bagian1 .iner img{
+    padding: 25px 0;
+}
+.bagian1 .iner ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+    width: 38%;
+    padding: 40px 0;
+}
+.bagian1 .iner ul div{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    
+}
+.bagian1 .iner ul div li{
+    font-size: 21px;
+    padding: 10px 0;
+    opacity: 0.7;
+    line-height: 1.5em;
+}
+.bagian1 .iner ul div i{
+    color: rgb(252, 122, 0);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.bagian2{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 100px 0;
+}
+.bagian2 h2{
+    text-align: center;
+    font-size: 3em;
+}
+.bagian2 h2 span{
+    color: rgb(0, 79, 250);
+}
+.div{
+    position: relative;
+    width: 100px;
+    height: 4px;
+    background-color: rgb(255, 94, 0);
+    margin: 10px auto 80px auto;
+    border-radius: 3px;
+}
+.kotak{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    margin: 0 auto;
+}
+.kotak .box{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    border: 3px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 40px;
+    transition: all 0.5s ease;
+}
+.kotak .box:hover{
+   transform: scale(1.2);
+}
+.kotak .box:nth-child(1){
+    color: blue;
+}
+.kotak .box:nth-child(2){
+    color: rgb(245, 29, 0);
+}
+.kotak .box:nth-child(3){
+    color: rgb(94, 0, 182);
+}
+.kotak .box:nth-child(4){
+    color: rgb(137, 83, 187);
+}
+.kotak .box:nth-child(5){
+    color: rgb(255, 0, 242);
+}
+.kotak .box:nth-child(6){
+    color: green;
+}
+
+.kotak .box i{
+    
+    font-size: 75px;
+   
+}
+.kotak .box h4{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+.kotak .box p{
+    width: 300px;
+    line-height: 1.5em;
+    font-size: 19px;
+    text-align: center;
+    color: black;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+.bagian3{
+    width: 100%;
+    background-color: rgb(37, 108, 201);
+    padding: 0 0 4em 0;
+}
+.bagian3 h2{
+    color: rgb(245, 221, 6);
+    text-align: center;
+    font-size: 2.5em;
+    padding: 3em 0 1.5em 0;
+}
+.bagian3 .alasan{
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+}
+.alasan .iner{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.alasan .iner div{
+    display: flex;
+    gap: 10px;
+}
+.alasan .iner div i{
+    font-size: 1.7em;
+    color: rgb(255, 161, 38);
+    font-weight: bold;
+    padding: 15px 0;
+}
+.alasan .iner div p{
+    font-size: 1.2em;
+    border-bottom: 1.2px dotted;
+    padding: 20px 70px 0 0;
+    color: rgb(240, 241, 255);
+}
+.bagian4 {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.966);
+    display: flex;
+    flex-direction: column;
+    padding: 5em 0;
+}
+.bagian4 h2{
+    font-size: 2.7em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.626);
+}
+.bagian4 h2 span{
+    color: rgba(255, 153, 0, 0.966);
+}
+.bagian4 .iner{
+    width: 80%;
+    margin: 0 auto 4em auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.bagian4 .iner:nth-child(3){
+    background-color: rgba(234, 254, 255, 0.822);
+}
+.bagian4 .iner:nth-child(5){
+    background-color: rgba(218, 218, 218, 0.486);
+}
+.bagian4 .iner:nth-child(6){
+    background-color: rgba(255, 237, 138, 0.733);
+}
+.bagian4 .iner img{
+    width: 280px;
+}
+.bagian4 .iner .img-ung{
+    padding: 0 7em 0 8em;
+}
+.bagian4 .iner div:nth-child(2){
+    width: 55%;
+    padding: 0 2em;
+}
+.bagian4 .iner:nth-child(3),
+.bagian4 .iner:nth-child(5){
+    flex-direction: row-reverse;
+}
+
+.bagian4 .iner div h4{
+    font-size: 1.8em;
+    padding: 20px 0;
+    color: rgb(37, 108, 201);
+}
+.bagian4 .iner div p{
+    font-size: 1.27em;
+    color: rgba(0, 0, 0, 0.600);
+}
+.bagian5 {
+    width: 100%;
+    background-color: rgba(255, 94, 0, 0.932);
+    display: flex;
+    justify-content: space-between;
+    gap: 6em;
+    padding: 2em 0;
+}
+.bagian5 div:nth-child(1){
+    padding: 2em 0 0 10rem;
+}
+.bagian5 div:nth-child(2){
+    width: 45%;
+    text-align: center;
+    padding: 5em 3em 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: white;
+}
+.bagian5 div h4{
+    font-size: 2em;
+}
+.bagian5 div p{
+    font-size: 1.7em;
+}
+.bagian5 div a{
+    width: 190px;
+    margin: 1em auto 0;
+    border-radius: 3em;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgba(33, 190, 54, 0.699);
+    padding: 16px;
+}
+
+.bagian6{
+    width: 100%;
+    background-color: white;
+    padding: 4em 0;
+}
+.bagian6 h2{
+    text-align: center;
+    color: rgb(28, 28, 124);
+    font-weight: 500;
+    font-size: 2.3em;
+    margin-bottom: 50px;
+}
+.bagian6 ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 1em;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding-top: 20px;
+}
+.bagian6 ul li{
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: rgb(19, 48, 175);
+    border: 1px solid;
+    transition: all 0.5s;
+}
+.bagian6 ul li:hover{
+    background-color: rgb(19, 48, 175);
+    color: white;
+}
+.bagian6 ul li a{
+    font-size: 1.2em;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 30px   ;
+    padding: 50px 0;
+}
+.portfolio .box{
+    display: block;
+}
+.portfolio .box img{
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0 lightgray;
+}
+.portfolio .box p{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.2em;
+}
+.portfolio .box p a{
+    color: rgb(19, 48, 175);
+    transition: all 0.5s ease;
+}
+.portfolio .box p:hover a{
+    color: rgb(133, 156, 255);
+}
+
+.bagian7{
+    border: 1px solid;
+    display: flex ;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+    background-color: rgb(233, 234, 235);
+}
+.testi{
+    border:  1px solid;
+    width: 40%;
+}
+.slider{
+    position: relative;
+    border: 1px solid;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    display: flex;
+}
+.slides input {
+    display: none;
+}
+
+.box-testimonial{
+    width: 40%;
+    transition: 1s;
+}
+.box-testimonial img{
+    width: 600px;
+}
+
+.nav-manual{
+    position: absolute;
+    width: 600px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid rgb(21, 109, 180);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+   .swiper {
+      width: 600px;
+      height: 300px;
+    }
